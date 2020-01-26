@@ -11,7 +11,7 @@ def my_collect(languages)
   languages.upcase
 end
 
-
+students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
 
 def my_collect(students)
   i = 0
