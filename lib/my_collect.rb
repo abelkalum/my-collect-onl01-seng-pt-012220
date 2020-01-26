@@ -18,7 +18,7 @@ def my_collect(students)
       student.split << yield(language[i])
     i += 1
   end
-  language.upcase
+  student.split
 end
 
 
