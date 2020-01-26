@@ -1,3 +1,5 @@
+
+
 def my_collect(languages)
   i = 0
   language.upcase = []
@@ -8,6 +10,8 @@ def my_collect(languages)
   end
   languages.upcase
 end
+
+
 
 def my_collect(students)
   i = 0
