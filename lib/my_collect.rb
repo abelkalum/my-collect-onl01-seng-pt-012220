@@ -13,7 +13,8 @@ def my_collect(students)
   i = 0
   language.upcase = []
   while i < language.length
-    my_collect(languages) do |language|
+     my_collect(students) do |student|
+      student.split(" ").first
       language.upcase << yield(language[i])
     i += 1
   end
