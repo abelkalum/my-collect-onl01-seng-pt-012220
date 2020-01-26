@@ -9,7 +9,7 @@ def my_collect(languages)
   languages.upcase
 end
 
-def my_collect()
+def my_collect(students)
   i = 0
   language.upcase = []
   while i < language.length
