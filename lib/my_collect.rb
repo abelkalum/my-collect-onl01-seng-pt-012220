@@ -15,7 +15,7 @@ def my_collect(students)
   while i < language.length
      my_collect(students) do |student|
       student.split(" ").first
-      student.split << yield(language[i])
+      student.split << yield(student[i])
     i += 1
   end
   student.split
