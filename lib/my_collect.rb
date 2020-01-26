@@ -7,6 +7,6 @@ def my_collect(languages)
       my_collect << yield(languages[i])
     i += 1
   end
-  languages.upcase
+  my_collect
 end
 
