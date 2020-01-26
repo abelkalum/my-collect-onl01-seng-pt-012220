@@ -25,4 +25,3 @@ def my_collect(students)
   student.split
 end
 
-
