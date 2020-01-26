@@ -1,4 +1,4 @@
-def my_collect(language)
+def my_collect(languages)
   i = 0
   language.upcase = []
   while i < language.length
