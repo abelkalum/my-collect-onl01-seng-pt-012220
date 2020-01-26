@@ -11,17 +11,3 @@ def my_collect(languages)
   languages.upcase
 end
 
-students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
-
-def my_collect(students)
-  i = 0
-  student.split = []
-  while i < language.length
-     my_collect(students) do |student|
-      student.split(" ").first
-      student.split << yield(student[i])
-    i += 1
-  end
-  student.split
-end
-
