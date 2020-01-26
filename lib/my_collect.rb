@@ -8,6 +8,5 @@ def my_collect(languages)
     i += 1
   end
   languages.upcase
- end
 end
 
