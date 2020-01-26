@@ -6,7 +6,7 @@ def my_collect(language)
       language.upcase << yield(language[i])
     i += 1
   end
-  collection
+  language.upcase
 end
 
 hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
