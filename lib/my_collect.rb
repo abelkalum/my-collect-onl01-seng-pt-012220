@@ -10,3 +10,4 @@ def my_collect(languages)
   my_collect
 end
 
+students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
